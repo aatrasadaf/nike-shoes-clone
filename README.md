@@ -8,7 +8,7 @@ It is a practice project aimed at improving real-world frontend development skil
 ---
 
 ## 🚀 Live Demo
-👉 [Add Live Link Here]
+👉  https://aatrasadaf.github.io/nike-shoes-clone/
 
 ## 📂 GitHub Repository
 👉 [Add Repo Link Here]
