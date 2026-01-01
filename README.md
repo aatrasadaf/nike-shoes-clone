@@ -11,7 +11,7 @@ It is a practice project aimed at improving real-world frontend development skil
 👉  https://aatrasadaf.github.io/nike-shoes-clone/
 
 ## 📂 GitHub Repository
-👉 [Add Repo Link Here]
+👉 https://github.com/aatrasadaf/nike-shoes-clone.git
 
 ---
 
