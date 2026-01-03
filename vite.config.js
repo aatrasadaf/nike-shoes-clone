@@ -6,5 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "Nike-shoes-clone",  //added for gh-pages deployment
+  base: "/nike-shoes-clone/",  //added for gh-pages deployment
 })

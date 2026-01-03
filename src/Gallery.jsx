@@ -1,4 +1,5 @@
 import React from 'react'
+import {gallery1, gallery2, gallery3} from '../assets/images'
 
 function Gallery() {
   return (
@@ -10,7 +11,7 @@ function Gallery() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src="/images/gallery1.jpg"
+        src= {gallery1.jpg}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       
@@ -26,7 +27,7 @@ function Gallery() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src="/images/gallery2.jpg"
+        src= {gallery2.jpg}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -42,7 +43,7 @@ function Gallery() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src="/images/gallery3.jpg"
+        src= {gallery3.jpg}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>

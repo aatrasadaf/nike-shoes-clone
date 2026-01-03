@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {product1, product4} from '../assets/images'
 
 function Cart() {
   const [cartItems, setCartItems] = useState([
@@ -7,14 +8,14 @@ function Cart() {
       name: "Nike Air Jordan 1",
       price: 250,
       quantity: 1,
-      image: "/images/product1.png",
+      image: product1,
     },
     {
       id: 2,
       name: "Nike Dunk Low",
       price: 180,
       quantity: 2,
-      image: "/images/product4.png",
+      image: product4,
     },
   ]);
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import {hero3} from '../assets/images'
 
 function Hero() {
   return (
@@ -25,7 +26,7 @@ function Hero() {
       <img
         className="object-cover object-center rounded h-full"
         alt="hero"
-        src="/images/hero3.png"
+        src= {hero3.png}
       />
     </div>
   </div>

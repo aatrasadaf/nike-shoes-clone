@@ -1,4 +1,5 @@
 import React from 'react'
+import {feature1, feature3} from '../assets/images'
 
 function Features() {
   return (
@@ -9,7 +10,7 @@ function Features() {
       <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[500px] md:h-[600px] lg:h-[600px]"
-        src="/images/feature3.jpg"
+        src={feature3.jpg}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       <h5 className='text-white font-semibold bg-red'>Introducing</h5>
@@ -17,7 +18,7 @@ function Features() {
       <button className="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-md font-semibold rounded-full">
           Shop Now
       </button>
-    </div>
+    </div>  
   </div>
     
      
@@ -26,7 +27,7 @@ function Features() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[500px] md:h-[600px] lg:h-[600px]"
-        src="/images/feature1.jpg"
+        src= {feature1.jpg}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>

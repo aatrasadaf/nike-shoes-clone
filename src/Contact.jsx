@@ -1,4 +1,5 @@
 import React from 'react'
+import {nikeLogo} from '../assets/images'
 
 function Contact() {
   return (
@@ -8,7 +9,7 @@ function Contact() {
      <img
      alt='nikelogo'
      className='w-32 mb-4'
-     src='/images/nikeLogo.png'
+     src= {nikeLogo.png}
     
     />
   <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-semibold">

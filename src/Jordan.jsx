@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 import Footer from './Footer'
+import {jordan1, jordansec1a, jordansec1b, jordansec2a, jordansec2b, jordansec2c} from '../assets/images'
 
 function Jordan() {
   return (
@@ -17,7 +18,7 @@ function Jordan() {
    {/* SubHeader2 section */}
     <header className="text-white body-font bg-[#1F1F21]">
      <div className="container mx-auto flex flex-wrap p-2 flex-col items-center justify-center py-8">
-        <img src="/images/jordan1.PNG" alt="" className='pb-10' />
+        <img src= {jordan1.PNG} alt="" className='pb-10' />
        
        <nav className="md:ml-auto md:mr-auto font-semibold flex flex-wrap items-center text-base justify-center">
          <a href='#NikeSKIMS' className="mr-5 hover:text-gray-900">New Arrivals</a>
@@ -60,7 +61,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src="/images/jordansec1a.avif"
+        src= {jordansec1a.avif}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       <h2 className='text-white text-xl font-semibold bg-red'>CROSSOVER FLEECE</h2>
@@ -76,7 +77,7 @@ function Jordan() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src="/images/jordansec1b.avif"
+        src= {jordansec1b.avif}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -98,7 +99,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src="/images/jordansec2a.avif"
+        src= {jordansec2a.avif}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900 text-white'>
@@ -113,7 +114,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src="/images/jordansec2b.avif"
+        src={jordansec2b.avif}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900 text-white'>
@@ -127,7 +128,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src="/images/jordansec2c.avif"
+        src= {jordansec2c.avif}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900 text-white'>

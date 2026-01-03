@@ -1,4 +1,5 @@
 import React from 'react'
+import {product1, product2, product3, product4, product5, product6, product7, product8, product9, product10, product11, product12, product13, product14, product15, product16} from '../assets/images'
 
 function Products() {
   return (
@@ -22,7 +23,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product1.png"
+            src={product1.png}
           />
         </a>
         <div className="mt-4">
@@ -36,7 +37,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product2.png"
+            src={product2.png}
           />
         </a>
         <div className="mt-4">
@@ -50,7 +51,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product3.png"
+            src={product3.png}
           />
         </a>
         <div className="mt-4">
@@ -64,7 +65,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product4.png"
+            src= {product4.png}
           />
         </a>
         <div className="mt-4">
@@ -78,7 +79,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product5.png"
+            src= {product5.png}
           />
         </a>
         <div className="mt-4">
@@ -92,7 +93,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product6.png"
+            src={product6.png}
           />
         </a>
         <div className="mt-4">
@@ -106,7 +107,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product7.png"
+            src= {product7.png}
           />
         </a>
         <div className="mt-4">
@@ -120,7 +121,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product8.png"
+            src= {product8.png}
           />
         </a>
         <div className="mt-4">
@@ -134,7 +135,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product9.png"
+            src= {product9.png}
           />
         </a>
         <div className="mt-4">
@@ -148,7 +149,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product10.png"
+            src= {product10.png}
           />
         </a>
         <div className="mt-4">
@@ -162,7 +163,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product11.png"
+            src= {product11.png}
           />
         </a>
         <div className="mt-4">
@@ -176,7 +177,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product12.png"
+            src={product12.png}
           />
         </a>
         <div className="mt-4">
@@ -190,7 +191,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product13.png"
+            src={product13.png}
           />
         </a>
         <div className="mt-4">
@@ -204,7 +205,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product14.png"
+            src= {product14.png}
           />
         </a>
         <div className="mt-4">
@@ -218,7 +219,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product15.png"
+            src= {product15.png}
           />
         </a>
         <div className="mt-4">
@@ -232,7 +233,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src="/images/product16.png"
+            src= {product16.png}
           />
         </a>
         <div className="mt-4">

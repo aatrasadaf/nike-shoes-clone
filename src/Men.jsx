@@ -5,14 +5,13 @@ import Products from './Products'
 import { Link } from 'react-router-dom'
 import Nikesims from './Nikesims'
 import Kids from './Kids'
+import {gallery1, gallery2, gallery3, featuremen1, featuremen2} from '../assets/images'
 
 
 function Men() {
   return (
     <>
     
-    
-   
   {/* SubHeader1 section */}
     <header className="text-gray-600 body-font">
      <div className="mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center justify-center py-3 bg-gray-300 w-full">
@@ -68,7 +67,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src="/images/gallery1.jpg"
+        src= {gallery1.jpg}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       
@@ -84,7 +83,7 @@ function Men() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src="/images/gallery2.jpg"
+        src= {gallery2.jpg}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -100,7 +99,7 @@ function Men() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src="/images/gallery3.jpg"
+        src= {gallery3.jpg}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -123,7 +122,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src="/images/featuremen1.jpg"
+        src= {featuremen1.jpg}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       <h5 className='text-white font-semibold bg-red'>Introducing</h5>
@@ -140,7 +139,7 @@ function Men() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src="/images/featuremen2.jpg"
+        src= {featuremen2.jpg}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -182,7 +181,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src="/images/gallery1.jpg"
+        src= {gallery1.jpg}
       />
        <a href="#"><h1 className='text-2xl py-2'>Accessories</h1></a>
    </div>
@@ -191,7 +190,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src="/images/gallery2.jpg"
+        src= {gallery2.jpg}
       />
        <a href="#"><h1 className='text-2xl py-2'>Shoes</h1></a>
    </div>
@@ -200,7 +199,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src="/images/gallery3.jpg"
+        src= {gallery3.jpg}
       />
        <a href="#"><h1 className='text-2xl py-2'>Clothing</h1></a>
    </div>
