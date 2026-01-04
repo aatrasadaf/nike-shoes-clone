@@ -26,7 +26,7 @@ function Hero() {
       <img
         className="object-cover object-center rounded h-full"
         alt="hero"
-        src= {hero3.png}
+        src= {hero3}
       />
     </div>
   </div>

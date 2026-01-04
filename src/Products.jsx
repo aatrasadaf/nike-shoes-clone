@@ -23,7 +23,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product1.png}
+            src={product1}
           />
         </a>
         <div className="mt-4">
@@ -37,7 +37,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product2.png}
+            src={product2}
           />
         </a>
         <div className="mt-4">
@@ -51,7 +51,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product3.png}
+            src={product3}
           />
         </a>
         <div className="mt-4">
@@ -65,7 +65,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product4.png}
+            src= {product4}
           />
         </a>
         <div className="mt-4">
@@ -79,7 +79,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product5.png}
+            src= {product5}
           />
         </a>
         <div className="mt-4">
@@ -93,7 +93,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product6.png}
+            src={product6}
           />
         </a>
         <div className="mt-4">
@@ -107,7 +107,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product7.png}
+            src= {product7}
           />
         </a>
         <div className="mt-4">
@@ -121,7 +121,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product8.png}
+            src= {product8}
           />
         </a>
         <div className="mt-4">
@@ -135,7 +135,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product9.png}
+            src= {product9}
           />
         </a>
         <div className="mt-4">
@@ -149,7 +149,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product10.png}
+            src= {product10}
           />
         </a>
         <div className="mt-4">
@@ -163,7 +163,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product11.png}
+            src= {product11}
           />
         </a>
         <div className="mt-4">
@@ -177,7 +177,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product12.png}
+            src={product12}
           />
         </a>
         <div className="mt-4">
@@ -191,7 +191,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product13.png}
+            src={product13}
           />
         </a>
         <div className="mt-4">
@@ -205,7 +205,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product14.png}
+            src= {product14}
           />
         </a>
         <div className="mt-4">
@@ -219,7 +219,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product15.png}
+            src= {product15}
           />
         </a>
         <div className="mt-4">
@@ -233,7 +233,7 @@ function Products() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product16.png}
+            src= {product16}
           />
         </a>
         <div className="mt-4">

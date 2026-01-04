@@ -11,7 +11,7 @@ function Gallery() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src= {gallery1.jpg}
+        src= {gallery1}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       
@@ -27,7 +27,7 @@ function Gallery() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src= {gallery2.jpg}
+        src= {gallery2}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -43,7 +43,7 @@ function Gallery() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src= {gallery3.jpg}
+        src= {gallery3}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>

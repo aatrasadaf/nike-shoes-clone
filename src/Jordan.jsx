@@ -18,7 +18,7 @@ function Jordan() {
    {/* SubHeader2 section */}
     <header className="text-white body-font bg-[#1F1F21]">
      <div className="container mx-auto flex flex-wrap p-2 flex-col items-center justify-center py-8">
-        <img src= {jordan1.PNG} alt="" className='pb-10' />
+        <img src= {jordan1} alt="" className='pb-10' />
        
        <nav className="md:ml-auto md:mr-auto font-semibold flex flex-wrap items-center text-base justify-center">
          <a href='#NikeSKIMS' className="mr-5 hover:text-gray-900">New Arrivals</a>
@@ -61,7 +61,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src= {jordansec1a.avif}
+        src= {jordansec1a}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       <h2 className='text-white text-xl font-semibold bg-red'>CROSSOVER FLEECE</h2>
@@ -77,7 +77,7 @@ function Jordan() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src= {jordansec1b.avif}
+        src= {jordansec1b}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -99,7 +99,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src= {jordansec2a.avif}
+        src= {jordansec2a}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900 text-white'>
@@ -114,7 +114,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src={jordansec2b.avif}
+        src={jordansec2b}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900 text-white'>
@@ -128,7 +128,7 @@ function Jordan() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src= {jordansec2c.avif}
+        src= {jordansec2c}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900 text-white'>

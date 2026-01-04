@@ -63,7 +63,7 @@ function Kids() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src= {kidssec1a.avif}
+        src= {kidssec1a}
       />
       
   </div>
@@ -74,7 +74,7 @@ function Kids() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src= {kidssec1b.avif}
+        src= {kidssec1b}
       />
       </a>
       
@@ -85,7 +85,7 @@ function Kids() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src={kidssec1c.avif}
+        src={kidssec1c}
       />
       </a>
      
@@ -104,7 +104,7 @@ function Kids() {
       <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[500px] md:h-[600px] lg:h-[600px]"
-        src={kidssec2a.avif}
+        src={kidssec2a}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       <h5 className='text-white font-semibold bg-red'>Nike Shox TL</h5>
@@ -121,7 +121,7 @@ function Kids() {
         <img
         alt="feature"
         className="object-center w-screen h-[400px] sm:h-[500px] md:h-[600px] lg:h-[600px]"
-        src={kidssec2b.avif}
+        src={kidssec2b}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -145,7 +145,7 @@ function Kids() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src= {kidssec3a.avif}
+        src= {kidssec3a}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       
@@ -161,7 +161,7 @@ function Kids() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src= {kidssec3b.avif}
+        src= {kidssec3b}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -177,7 +177,7 @@ function Kids() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src= {kidssec3c.avif}
+        src= {kidssec3c}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -200,7 +200,7 @@ function Kids() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src= {kidssec4a.avif}
+        src= {kidssec4a}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900'>
@@ -216,7 +216,7 @@ function Kids() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src= {kidssec4b.avif}
+        src= {kidssec4b}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900'>
@@ -232,7 +232,7 @@ function Kids() {
       <img
         alt="feature"
         className="object-cover object-center w-full"
-        src= {kidssec4c.avif}
+        src= {kidssec4c}
       />
    
     <div className='text-start space-y-3 py-4 flex flex-col text-gray-900'>
@@ -267,7 +267,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product2.png}
+            src= {product2}
           />
         </a>
         <div className="mt-4">
@@ -282,7 +282,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product4.png}
+            src={product4}
           />
         </a>
         <div className="mt-4">
@@ -296,7 +296,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product5.png}
+            src={product5}
           />
         </a>
         <div className="mt-4">
@@ -311,7 +311,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product7.png}
+            src= {product7}
           />
         </a>
         <div className="mt-4">
@@ -325,7 +325,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product8.png}
+            src= {product8}
           />
         </a>
         <div className="mt-4">
@@ -340,7 +340,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product14.png}
+            src= {product14}
           />
         </a>
         <div className="mt-4">
@@ -354,7 +354,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src={product15.png}
+            src={product15}
           />
         </a>
         <div className="mt-4">
@@ -368,7 +368,7 @@ function Kids() {
           <img
             alt="ecommerce"
             className="object-cover object-center w-32 block"
-            src= {product16.png}
+            src= {product16}
           />
         </a>
         <div className="mt-4">

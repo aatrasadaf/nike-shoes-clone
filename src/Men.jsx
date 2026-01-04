@@ -67,7 +67,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src= {gallery1.jpg}
+        src= {gallery1}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       
@@ -83,7 +83,7 @@ function Men() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src= {gallery2.jpg}
+        src= {gallery2}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -99,7 +99,7 @@ function Men() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-full"
-        src= {gallery3.jpg}
+        src= {gallery3}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -122,7 +122,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src= {featuremen1.jpg}
+        src= {featuremen1}
       />
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
       <h5 className='text-white font-semibold bg-red'>Introducing</h5>
@@ -139,7 +139,7 @@ function Men() {
         <img
         alt="feature"
         className="object-cover object-center w-screen h-[400px] sm:h-[700px] md:h-[700px] lg:h-[700px]"
-        src= {featuremen2.jpg}
+        src= {featuremen2}
       />
       </a>
       <div className='text-start p-10 flex flex-col justity-center items-start space-y-4 absolute bottom-0 left-0'>
@@ -181,7 +181,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src= {gallery1.jpg}
+        src= {gallery1}
       />
        <a href="#"><h1 className='text-2xl py-2'>Accessories</h1></a>
    </div>
@@ -190,7 +190,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src= {gallery2.jpg}
+        src= {gallery2}
       />
        <a href="#"><h1 className='text-2xl py-2'>Shoes</h1></a>
    </div>
@@ -199,7 +199,7 @@ function Men() {
       <img
         alt="feature"
         className="object-cover object-center h-full w-screen"
-        src= {gallery3.jpg}
+        src= {gallery3}
       />
        <a href="#"><h1 className='text-2xl py-2'>Clothing</h1></a>
    </div>

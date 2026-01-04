@@ -9,7 +9,7 @@ function Contact() {
      <img
      alt='nikelogo'
      className='w-32 mb-4'
-     src= {nikeLogo.png}
+     src= {nikeLogo}
     
     />
   <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-semibold">
