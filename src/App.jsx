@@ -9,10 +9,12 @@ import Gallery from './Gallery'
 import Contact from './Contact'
 import Footer from './Footer'
 import Men from './Men'
+import Women from './Women'
 import Kids from './Kids'
 import Nikesims from './Nikesims'
 import Cart from './Cart'
 import Jordan from './Jordan'
+import Sport from './Sport'
 import Sale from './Sale';
 
 
