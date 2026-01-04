@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import {kidssec1a, kidssec1b, kidssec1c, kidssec2a, kidssec2b, kidssec3a, kidssec3b, kidssec3c, kidssec4a, kidssec4b, kidssec4c, product2, product4, product5, product7, product8, product14, product15, product16 } from './assets/images'
+import {kidssec1a, kidssec1b, kidssec1c, kidssec2a, kidssec2b, kidssec3a, kidssec3b, kidssec3c, kidssec4a, kidssec4b, kidssec4c, product2, product4, product5, product7, product8, product14, product15, product16, kidshero} from './assets/images'
 
 function Kids() {
   return (
@@ -36,7 +36,10 @@ function Kids() {
    {/* Hero section */}
     <section className="text-gray-600 body-font">
     
-  <div className="mx-auto flex flex-col items-center bg-[url(/images/kidshero.avif)] bg-cover bg-center lg:h-[500px] h-96">
+  <div className="mx-auto flex flex-col items-center bg-cover bg-center lg:h-[500px] h-96" 
+    style={{
+          backgroundImage: `url(${kidshero})`,
+        }}>
      <div className="flex-grow flex flex-col items-center justify-end text-white">
       <h1 className="text-6xl mb-4 font-extrabold text-center">
         Gift the Game

@@ -37,12 +37,12 @@ function Navbar() {
     </a>
     <nav className="md:ml-80 md:mr-auto font-semibold flex flex-wrap items-center text-base justify-center">
       <Link to='/' className="mr-5 hover:text-gray-900">NikeSKIMS</Link>
-      <Link to="/men" className="mr-5 hover:text-gray-900">Men</Link>
-      <Link to='/women' className="mr-5 hover:text-gray-900">Women</Link>
+      <Link to="men" className="mr-5 hover:text-gray-900">Men</Link>
+      <Link to='women' className="mr-5 hover:text-gray-900">Women</Link>
       <Link to='kids' className="mr-5 hover:text-gray-900">Kids</Link>
-      <Link to='/jordan' className="mr-5 hover:text-gray-900">Jordan</Link>
-      <Link to='/sport' className="mr-5 hover:text-gray-900">Sport</Link>
-      <Link to='/sale' className="mr-5 hover:text-gray-900">Sale</Link>
+      <Link to='jordan' className="mr-5 hover:text-gray-900">Jordan</Link>
+      <Link to='sport' className="mr-5 hover:text-gray-900">Sport</Link>
+      <Link to='sale' className="mr-5 hover:text-gray-900">Sale</Link>
     </nav>
     <div className='flex items-center space-x-2'>
       <form className="inline-flex items-center bg-gray-100 border-0 font-semibold py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-2xl text-base mt-4 md:mt-0 w-40">
@@ -51,7 +51,7 @@ function Navbar() {
       <button className='p-2 rounded-full hover:bg-gray-200'>
          <AiOutlineHeart className='w-6 h-6 cursor-pointer hover:text-red-500 '></AiOutlineHeart>
       </button>
-      <Link to='/cart'><button className='p-2 rounded-full hover:bg-gray-200'>
+      <Link to='cart'><button className='p-2 rounded-full hover:bg-gray-200'>
          <AiOutlineShopping className='w-6 h-6 cursor-pointer hover:text-gray-900 '></AiOutlineShopping>
       </button></Link>
       

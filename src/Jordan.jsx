@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 import Footer from './Footer'
-import {jordan1, jordansec1a, jordansec1b, jordansec2a, jordansec2b, jordansec2c} from './assets/images'
+import {jordan1, jordansec1a, jordansec1b, jordansec2a, jordansec2b, jordansec2c, jordanhero} from './assets/images'
 
 function Jordan() {
   return (
@@ -36,7 +36,9 @@ function Jordan() {
     {/* Hero section */}
     <section className="text-gray-600 body-font">
     
-  <div className="mx-auto flex flex-col items-center bg-[url(/images/jordanhero.avif)] bg-cover bg-center lg:h-[500px] h-96">
+  <div className="mx-auto flex flex-col items-center bg-cover bg-center lg:h-[500px] h-96" style={{
+          backgroundImage: `url(${jordanhero})`,
+        }}>  
      <div className="flex-grow flex flex-col items-center justify-end text-white">
       <p className="mb-3 leading-relaxed font-semibold">
         Kids Air Jordan 11

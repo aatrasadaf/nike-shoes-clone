@@ -5,7 +5,7 @@ import Products from './Products'
 import { Link } from 'react-router-dom'
 import Nikesims from './Nikesims'
 import Kids from './Kids'
-import {gallery1, gallery2, gallery3, featuremen1, featuremen2} from './assets/images'
+import {gallery1, gallery2, gallery3, featuremen1, featuremen2, menhero, bannermen} from './assets/images'
 
 
 function Men() {
@@ -40,7 +40,9 @@ function Men() {
   {/* Hero section */}
     <section className="text-gray-600 body-font">
     
-  <div className="mx-auto flex px-5 py-24 md:flex-row flex-col items-center bg-[url(/images/menhero.jpg)] bg-cover bg-center h-96">
+  <div className="mx-auto flex px-5 py-24 md:flex-row flex-col items-center bg-cover bg-center h-96" style={{
+        backgroundImage: `url(${menhero})`,
+      }}>
   </div>
 
   <div className="lg:flex-grow md:w-full lg:pr-24 :pr-16 flex flex-col md:items-center md:text-left mb-16 md:mb-0 items-center text-center text-gray-800 align-middle justify-center my-10">
@@ -155,7 +157,10 @@ function Men() {
 
 {/* Banner section */}
 <section className="text-gray-600 body-font my-15">
-  <div className="mx-auto flex md:flex-row flex-col items-end bg-[url(/images/bannermen.jpg)] bg-cover bg-center h-screen">
+  <div className="mx-auto flex md:flex-row flex-col items-end bg-cover bg-center h-screen" 
+  style={{
+        backgroundImage: `url(${bannermen})`,
+      }}>
     <div className="flex-grow flex flex-col items-center text-white justify-end my-20">
       <h1 className="text-6xl mb-4 font-extrabold text-center">
         GIFT THE GAME

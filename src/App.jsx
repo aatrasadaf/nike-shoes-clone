@@ -21,7 +21,7 @@ function App() {
   return (
     <>
 
-    <BrowserRouter>
+    <BrowserRouter basename="/nike-shoes-clone">
       
       <Navbar></Navbar>
       <Routes>
@@ -29,12 +29,16 @@ function App() {
         <Route path="/" element={<Nikesims/>}/>
         {/* Men page route */}
         <Route path="/men" element={<Men />} />
+         {/* Women page route */}
+        <Route path="/women" element={<Women />} />
         {/* kids page route */}
         <Route path="/kids" element={<Kids />} />
          {/* cart page route */}
         <Route path="/cart" element={<Cart />} />
          {/* jordan page route */}
         <Route path="/jordan" element={<Jordan />} />
+         {/* sport page route */}
+        <Route path="/sport" element={<Sport />} />
          {/* sale page route */}
         <Route path="/sale" element={<Sale />} />
       </Routes>
