@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 import Footer from './Footer'
-import {jordan1, jordansec1a, jordansec1b, jordansec2a, jordansec2b, jordansec2c} from '../assets/images'
+import {jordan1, jordansec1a, jordansec1b, jordansec2a, jordansec2b, jordansec2c} from './assets/images'
 
 function Jordan() {
   return (

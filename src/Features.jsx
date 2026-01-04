@@ -1,5 +1,5 @@
 import React from 'react'
-import {feature1, feature3} from '../assets/images'
+import {feature1, feature3} from './assets/images'
 
 function Features() {
   return (

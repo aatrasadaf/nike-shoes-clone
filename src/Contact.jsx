@@ -1,5 +1,5 @@
 import React from 'react'
-import {nikeLogo} from '../assets/images'
+import {nikeLogo} from './assets/images'
 
 function Contact() {
   return (

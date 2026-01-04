@@ -5,7 +5,7 @@ import Products from './Products'
 import { Link } from 'react-router-dom'
 import Nikesims from './Nikesims'
 import Kids from './Kids'
-import {gallery1, gallery2, gallery3, featuremen1, featuremen2} from '../assets/images'
+import {gallery1, gallery2, gallery3, featuremen1, featuremen2} from './assets/images'
 
 
 function Men() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import {gallery1, gallery2, gallery3} from '../assets/images'
+import {gallery1, gallery2, gallery3} from './assets/images'
 
 function Gallery() {
   return (

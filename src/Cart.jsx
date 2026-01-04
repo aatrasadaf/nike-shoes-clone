@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {product1, product4} from '../assets/images'
+import {product1, product4} from './assets/images'
 
 function Cart() {
   const [cartItems, setCartItems] = useState([
