@@ -23,7 +23,7 @@ function App() {
   return (
     <>
 
-    <BrowserRouter basename="/nike-shoes-clone">
+    <BrowserRouter>
       
       <Navbar></Navbar>
       <Routes>
